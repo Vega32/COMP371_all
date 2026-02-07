@@ -27,14 +27,16 @@ project(raytracer)
 set(CMAKE_CXX_STANDARD 14)
 
 set(CMAKE_PREFIX_PATH
-    /encs # For ENCS lab computers
-    /opt/local # Macports
+    #/encs # For ENCS lab computers
+    #/opt/local # Macports
 )
+
+include(C:/vcpkg/scripts/buildsystems/vcpkg.cmake)
 
 # ENCS Eigen3 CMake setup
 if (WIN32)
-include_directories(C:/eigen-3.4.1/)# for windows you can directly hardcode the paths to your libraries in the include
-else() 
+include_directories(C:/vcpkg/packages/eigen3_x64-windows/include/eigen3/)# for windows you can directly hardcode the paths to your libraries in the include
+else()
 set(ENV{EIGEN3_ROOT} /encs/pkg/eigen-3.3.7/root)
 set(CMAKE_MODULE_PATH /encs/pkg/eigen-3.3.7/root/cmake)
 
