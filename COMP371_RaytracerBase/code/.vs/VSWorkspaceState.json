@@ -6,7 +6,10 @@
     ]
   },
   "ExpandedNodes": [
-    ""
+    "",
+    "\\external",
+    "\\src"
   ],
+  "SelectedNode": "\\external\\simpleppm.h",
   "PreviewInSolutionExplorer": false
 }
