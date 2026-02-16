@@ -1,4 +1,5 @@
 #include "Scene.h"
+#include <numbers>
 using namespace std;
 using namespace nlohmann;
 
@@ -62,8 +63,24 @@ Scene::Scene(json j)
 
         geometry->pc = (*itr)["pc"].get<float>();
 
-        //adding geometry to geometry vector
-        vGeometry.push_back(*geometry);
+        //splitting rectangles into two triangles
+        if (geometry->type == "rectangle") {
+            Geometry tri1 = *geometry;
+            Geometry tri2 = *geometry;
+
+            tri1.type = "triangle";
+            // Triangle 1: p1, p2, p3
+            vGeometry.push_back(tri1);
+
+            tri2.type = "triangle";
+            // Triangle 2: p1, p3, p4
+            tri2.p2 = tri2.p3;
+            tri2.p3 = tri2.p4;
+            vGeometry.push_back(tri2);
+        }
+        else {
+            vGeometry.push_back(*geometry);
+        }
     }
 
     for (auto itr = j["light"].begin(); itr != j["light"].end(); itr++) {
@@ -130,10 +147,10 @@ Scene::Scene(json j)
             output->up[i++] = (*itr2).get<float>();
         }
         //fov
-        output->fov = (*itr)["fov"].get<float>();
+        output->fov = (*itr)["fov"].get<float>()*(2*acos(0.0))/180.0;
         //center
         i = 0;
-        for (auto itr2 = (*itr)["center"].begin(); itr2 != (*itr)["center"].end(); itr2++) {
+        for (auto itr2 = (*itr)["centre"].begin(); itr2 != (*itr)["centre"].end(); itr2++) {
             output->center[i++] = (*itr2).get<float>();
         }
         //ai

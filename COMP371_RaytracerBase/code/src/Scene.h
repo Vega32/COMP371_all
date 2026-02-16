@@ -1,3 +1,4 @@
+#ifndef SCENE_H
 #define SCENE_H
 #include <vector>
 #include "../external/json.hpp"
@@ -55,7 +56,7 @@ public:
 	Eigen::Vector2f size{0,0};
 	Eigen::Vector3f lookat{0, 0, 0};
 	Eigen::Vector3f up{0, 0, 0};
-	float fov;
+	float fov = 90;
 	Eigen::Vector3f center{0, 0, 0};
 	Eigen::Vector3f ai{0, 0, 0};
 	Eigen::Vector3f bkc{0, 0, 0};
@@ -73,3 +74,6 @@ public:
 	vector<Output> vOutput;
 
 };
+
+
+#endif
