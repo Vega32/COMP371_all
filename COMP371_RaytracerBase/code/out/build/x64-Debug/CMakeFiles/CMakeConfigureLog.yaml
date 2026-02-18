@@ -45,6 +45,7 @@ events:
       - "C:/Users/Vega/.dotnet/tools/"
       - "C:/Users/Vega/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
@@ -79,6 +80,7 @@ events:
         - "C:\\Users\\Vega\\.dotnet\\tools"
         - "C:\\Users\\Vega\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Vega\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Vega\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
@@ -146,6 +148,7 @@ events:
         - "C:\\Users\\Vega\\.dotnet\\tools"
         - "C:\\Users\\Vega\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Vega\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Vega\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
@@ -177,11 +180,11 @@ events:
       
       The output was:
       0
-      Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35723 for x64
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
       Copyright (C) Microsoft Corporation.  All rights reserved.
       
       CMakeCCompilerId.c
-      Microsoft (R) Incremental Linker Version 14.50.35723.0
+      Microsoft (R) Incremental Linker Version 14.50.35724.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
       
       /out:CMakeCCompilerId.exe 
@@ -193,7 +196,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
       
       The C compiler identification is MSVC, found in:
-        C:/Users/Vega/Files/School/COMP371/COMP371_RaytracerBase/code/out/build/x64-Debug/CMakeFiles/4.1.1-msvc1/CompilerIdC/CMakeCCompilerId.exe
+        C:/Users/Vega/Files/School/COMP371/COMP371_RaytracerBase/code/out/build/x64-Debug/CMakeFiles/4.1.2-msvc8/CompilerIdC/CMakeCCompilerId.exe
       
   -
     kind: "message-v1"
@@ -254,6 +257,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/.dotnet/tools/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/GitHubDesktop/bin/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
@@ -283,6 +287,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/Vega/.dotnet/tools/"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/GitHubDesktop/bin/"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
@@ -312,6 +317,7 @@ events:
       - "C:/Users/Vega/.dotnet/tools/"
       - "C:/Users/Vega/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
@@ -390,6 +396,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/link.com"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/link.exe"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/link"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/link.com"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/link.exe"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/link"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/link.com"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/link.exe"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/link"
@@ -477,6 +486,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/link.com"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/link.exe"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/link"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/link.com"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/link.exe"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/link"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/link.com"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/link.exe"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/link"
@@ -525,6 +537,7 @@ events:
         - "C:\\Users\\Vega\\.dotnet\\tools"
         - "C:\\Users\\Vega\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Vega\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Vega\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
@@ -578,6 +591,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/.dotnet/tools/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/GitHubDesktop/bin/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
@@ -607,6 +621,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/Vega/.dotnet/tools/"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/GitHubDesktop/bin/"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
@@ -636,6 +651,7 @@ events:
       - "C:/Users/Vega/.dotnet/tools/"
       - "C:/Users/Vega/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
@@ -714,6 +730,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link.com"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link.exe"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lld-link.com"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lld-link.exe"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lld-link"
@@ -801,6 +820,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link.com"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link.exe"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lld-link.com"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lld-link.exe"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lld-link"
@@ -888,6 +910,9 @@ events:
       - "C:/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
       - "C:/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
       - "C:/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link.com"
+      - "C:/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link.exe"
+      - "C:/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lld-link.com"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lld-link.exe"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lld-link"
@@ -935,6 +960,7 @@ events:
         - "C:\\Users\\Vega\\.dotnet\\tools"
         - "C:\\Users\\Vega\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Vega\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Vega\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
@@ -986,6 +1012,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/.dotnet/tools/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/GitHubDesktop/bin/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
@@ -1015,6 +1042,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/Vega/.dotnet/tools/"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/GitHubDesktop/bin/"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
@@ -1044,6 +1072,7 @@ events:
       - "C:/Users/Vega/.dotnet/tools/"
       - "C:/Users/Vega/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
@@ -1122,6 +1151,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/link.com"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/link.exe"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/link"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/link.com"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/link.exe"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/link"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/link.com"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/link.exe"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/link"
@@ -1209,6 +1241,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/link.com"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/link.exe"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/link"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/link.com"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/link.exe"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/link"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/link.com"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/link.exe"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/link"
@@ -1257,6 +1292,7 @@ events:
         - "C:\\Users\\Vega\\.dotnet\\tools"
         - "C:\\Users\\Vega\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Vega\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Vega\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
@@ -1308,6 +1344,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/.dotnet/tools/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/GitHubDesktop/bin/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
@@ -1337,6 +1374,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/Vega/.dotnet/tools/"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/GitHubDesktop/bin/"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
@@ -1366,6 +1404,7 @@ events:
       - "C:/Users/Vega/.dotnet/tools/"
       - "C:/Users/Vega/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
@@ -1444,6 +1483,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/mt.com"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/mt.exe"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/mt"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/mt.com"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/mt.exe"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/mt"
@@ -1531,6 +1573,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/mt.com"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/mt.exe"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/mt"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/mt.com"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/mt.exe"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/mt"
@@ -1600,6 +1645,7 @@ events:
         - "C:\\Users\\Vega\\.dotnet\\tools"
         - "C:\\Users\\Vega\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Vega\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Vega\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
@@ -1651,6 +1697,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/.dotnet/tools/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/GitHubDesktop/bin/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
@@ -1680,6 +1727,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/Vega/.dotnet/tools/"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/GitHubDesktop/bin/"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
@@ -1709,6 +1757,7 @@ events:
       - "C:/Users/Vega/.dotnet/tools/"
       - "C:/Users/Vega/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
@@ -1787,6 +1836,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/lib.com"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/lib.exe"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/lib"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lib.com"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lib.exe"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lib"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lib.com"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lib.exe"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lib"
@@ -1874,6 +1926,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/lib.com"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/lib.exe"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/lib"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lib.com"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lib.exe"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lib"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lib.com"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lib.exe"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lib"
@@ -1922,6 +1977,7 @@ events:
         - "C:\\Users\\Vega\\.dotnet\\tools"
         - "C:\\Users\\Vega\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Vega\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Vega\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
@@ -1983,6 +2039,7 @@ events:
         - "C:\\Users\\Vega\\.dotnet\\tools"
         - "C:\\Users\\Vega\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Vega\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Vega\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
@@ -2014,11 +2071,11 @@ events:
       
       The output was:
       0
-      Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35723 for x64
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
       Copyright (C) Microsoft Corporation.  All rights reserved.
       
       CMakeCXXCompilerId.cpp
-      Microsoft (R) Incremental Linker Version 14.50.35723.0
+      Microsoft (R) Incremental Linker Version 14.50.35724.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
       
       /out:CMakeCXXCompilerId.exe 
@@ -2030,7 +2087,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/Vega/Files/School/COMP371/COMP371_RaytracerBase/code/out/build/x64-Debug/CMakeFiles/4.1.1-msvc1/CompilerIdCXX/CMakeCXXCompilerId.exe
+        C:/Users/Vega/Files/School/COMP371/COMP371_RaytracerBase/code/out/build/x64-Debug/CMakeFiles/4.1.2-msvc8/CompilerIdCXX/CMakeCXXCompilerId.exe
       
   -
     kind: "message-v1"
@@ -2091,6 +2148,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/.dotnet/tools/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/GitHubDesktop/bin/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
@@ -2120,6 +2178,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/Vega/.dotnet/tools/"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/GitHubDesktop/bin/"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
@@ -2149,6 +2208,7 @@ events:
       - "C:/Users/Vega/.dotnet/tools/"
       - "C:/Users/Vega/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
@@ -2227,6 +2287,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link.com"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link.exe"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lld-link.com"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lld-link.exe"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lld-link"
@@ -2314,6 +2377,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link.com"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link.exe"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lld-link.com"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lld-link.exe"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lld-link"
@@ -2401,6 +2467,9 @@ events:
       - "C:/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
       - "C:/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
       - "C:/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link.com"
+      - "C:/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link.exe"
+      - "C:/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lld-link.com"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lld-link.exe"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lld-link"
@@ -2448,6 +2517,7 @@ events:
         - "C:\\Users\\Vega\\.dotnet\\tools"
         - "C:\\Users\\Vega\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Vega\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Vega\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
@@ -2509,6 +2579,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/.dotnet/tools/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/GitHubDesktop/bin/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
@@ -2557,6 +2628,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/Vega/.dotnet/tools/"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/GitHubDesktop/bin/"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
@@ -2605,6 +2677,7 @@ events:
       - "C:/Users/Vega/.dotnet/tools/"
       - "C:/Users/Vega/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
@@ -2716,6 +2789,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/rc.com"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/rc.exe"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/rc"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/rc.com"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/rc.exe"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/rc"
@@ -2860,6 +2936,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/rc.com"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/rc.exe"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/rc"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/rc.com"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/rc.exe"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/rc"
@@ -2986,6 +3065,7 @@ events:
         - "C:\\Users\\Vega\\.dotnet\\tools"
         - "C:\\Users\\Vega\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Vega\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Vega\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
@@ -3007,8 +3087,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/Vega/Files/School/COMP371/COMP371_RaytracerBase/code/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qa49sc"
-      binary: "C:/Users/Vega/Files/School/COMP371/COMP371_RaytracerBase/code/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qa49sc"
+      source: "C:/Users/Vega/Files/School/COMP371/COMP371_RaytracerBase/code/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-hyntfw"
+      binary: "C:/Users/Vega/Files/School/COMP371/COMP371_RaytracerBase/code/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-hyntfw"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -3021,11 +3101,11 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Vega/Files/School/COMP371/COMP371_RaytracerBase/code/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qa49sc'
+        Change Dir: 'C:/Users/Vega/Files/School/COMP371/COMP371_RaytracerBase/code/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-hyntfw'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_ac41c
-        [1/2] C:\\PROGRA~1\\MICROS~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_ac41c.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_ac41c.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_ac41c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ac41c.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_ac41c.exe /implib:cmTC_ac41c.lib /pdb:cmTC_ac41c.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_b1789
+        [1/2] C:\\PROGRA~1\\MICROS~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_b1789.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_b1789.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_b1789.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_b1789.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_b1789.exe /implib:cmTC_b1789.lib /pdb:cmTC_b1789.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -3054,7 +3134,7 @@ events:
       - "CMakeLists.txt:3 (project)"
     message: |
       Running the C compiler's linker: "C:/PROGRA~1/MICROS~1/18/COMMUN~1/VC/Tools/MSVC/1450~1.357/bin/Hostx64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.50.35723.0
+      Microsoft (R) Incremental Linker Version 14.50.35724.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
   -
     kind: "try_compile-v1"
@@ -3065,8 +3145,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/Vega/Files/School/COMP371/COMP371_RaytracerBase/code/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-w2sc03"
-      binary: "C:/Users/Vega/Files/School/COMP371/COMP371_RaytracerBase/code/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-w2sc03"
+      source: "C:/Users/Vega/Files/School/COMP371/COMP371_RaytracerBase/code/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-mfqv2p"
+      binary: "C:/Users/Vega/Files/School/COMP371/COMP371_RaytracerBase/code/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-mfqv2p"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -3080,11 +3160,11 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Vega/Files/School/COMP371/COMP371_RaytracerBase/code/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-w2sc03'
+        Change Dir: 'C:/Users/Vega/Files/School/COMP371/COMP371_RaytracerBase/code/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-mfqv2p'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_06d54
-        [1/2] C:\\PROGRA~1\\MICROS~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_06d54.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_06d54.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_06d54.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_06d54.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_06d54.exe /implib:cmTC_06d54.lib /pdb:cmTC_06d54.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_77431
+        [1/2] C:\\PROGRA~1\\MICROS~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_77431.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_77431.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_77431.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_77431.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_77431.exe /implib:cmTC_77431.lib /pdb:cmTC_77431.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -3113,14 +3193,14 @@ events:
       - "CMakeLists.txt:3 (project)"
     message: |
       Running the CXX compiler's linker: "C:/PROGRA~1/MICROS~1/18/COMMUN~1/VC/Tools/MSVC/1450~1.357/bin/Hostx64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.50.35723.0
+      Microsoft (R) Incremental Linker Version 14.50.35724.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
   -
     kind: "find-v1"
     backtrace:
       - "C:/vcpkg/scripts/buildsystems/vcpkg.cmake:188 (find_program)"
       - "C:/vcpkg/scripts/buildsystems/vcpkg.cmake:621 (z_vcpkg_set_powershell_path)"
-      - "CMakeLists.txt:58 (add_executable)"
+      - "CMakeLists.txt:59 (add_executable)"
     mode: "program"
     variable: "Z_VCPKG_PWSH_PATH"
     description: "Path to a program."
@@ -3160,6 +3240,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/.dotnet/tools/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/GitHubDesktop/bin/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
@@ -3202,6 +3283,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/Vega/.dotnet/tools/"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/GitHubDesktop/bin/"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
@@ -3244,6 +3326,7 @@ events:
       - "C:/Users/Vega/.dotnet/tools/"
       - "C:/Users/Vega/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
@@ -3337,6 +3420,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/pwsh.com"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/pwsh.exe"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/pwsh"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/pwsh.com"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/pwsh.exe"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/pwsh"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/pwsh.com"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/pwsh.exe"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/pwsh"
@@ -3463,6 +3549,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/pwsh.com"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/pwsh.exe"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/pwsh"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/pwsh.com"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/pwsh.exe"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/pwsh"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/pwsh.com"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/pwsh.exe"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/pwsh"
@@ -3589,6 +3678,9 @@ events:
       - "C:/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/pwsh.com"
       - "C:/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/pwsh.exe"
       - "C:/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/pwsh"
+      - "C:/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/pwsh.com"
+      - "C:/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/pwsh.exe"
+      - "C:/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/pwsh"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/pwsh.com"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/pwsh.exe"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/pwsh"
@@ -3669,6 +3761,7 @@ events:
         - "C:\\Users\\Vega\\.dotnet\\tools"
         - "C:\\Users\\Vega\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Vega\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Vega\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
@@ -3686,7 +3779,7 @@ events:
     backtrace:
       - "C:/vcpkg/scripts/buildsystems/vcpkg.cmake:193 (find_program)"
       - "C:/vcpkg/scripts/buildsystems/vcpkg.cmake:621 (z_vcpkg_set_powershell_path)"
-      - "CMakeLists.txt:58 (add_executable)"
+      - "CMakeLists.txt:59 (add_executable)"
     mode: "program"
     variable: "Z_VCPKG_BUILTIN_POWERSHELL_PATH"
     description: "Path to a program."
@@ -3726,6 +3819,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/.dotnet/tools/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/GitHubDesktop/bin/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
@@ -3768,6 +3862,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/Vega/.dotnet/tools/"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/GitHubDesktop/bin/"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
@@ -3810,6 +3905,7 @@ events:
       - "C:/Users/Vega/.dotnet/tools/"
       - "C:/Users/Vega/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
@@ -3903,6 +3999,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/powershell.com"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/powershell.exe"
       - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/powershell"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/powershell.com"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/powershell.exe"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/powershell"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/powershell.com"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/powershell.exe"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/powershell"
@@ -4029,6 +4128,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/powershell.com"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/powershell.exe"
       - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/Microsoft VS Code/bin/powershell"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/powershell.com"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/powershell.exe"
+      - "C:/vcpkg/installed/x64-windows/Users/Vega/AppData/Local/Programs/MiKTeX/miktex/bin/x64/powershell"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/powershell.com"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/powershell.exe"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/powershell"
@@ -4161,6 +4263,7 @@ events:
         - "C:\\Users\\Vega\\.dotnet\\tools"
         - "C:\\Users\\Vega\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Vega\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Vega\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"

@@ -5,8 +5,8 @@
     {
       "type": "default",
       "project": "CMakeLists.txt",
-      "projectTarget": "raytracer.exe",
-      "name": "raytracer.exe"
+      "projectTarget": "",
+      "name": "CMakeLists.txt"
     }
   ]
 }

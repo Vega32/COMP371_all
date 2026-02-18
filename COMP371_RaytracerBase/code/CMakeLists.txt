@@ -21,8 +21,8 @@ add_compile_options(-DSTUDENT_SOLUTION)
 
 # When testing large scenes the debug mode will be very slow
 # so switch to release
-#set(CMAKE_BUILD_TYPE Debug)
-set(CMAKE_BUILD_TYPE Release)
+set(CMAKE_BUILD_TYPE Debug)
+#set(CMAKE_BUILD_TYPE Release)
 
 set(CMAKE_CXX_STANDARD 14)
 
@@ -31,7 +31,7 @@ set(CMAKE_PREFIX_PATH
     #/opt/local # Macports
 )
 
-include(C:/vcpkg/scripts/buildsystems/vcpkg.cmake)
+#include(C:/vcpkg/scripts/buildsystems/vcpkg.cmake)
 
 # ENCS Eigen3 CMake setup
 if (WIN32)
@@ -55,5 +55,6 @@ include_directories(external/)
 aux_source_directory(external SOURCE)
 aux_source_directory(src SOURCE)
 
-add_executable(raytracer main.cpp ${SOURCE} "src/RayTracer.h" "src/RayTracer.cpp" "src/Scene.h" "src/Scene.cpp") #The name of the cpp file and its path can vary
+
+add_executable(raytracer main.cpp ${SOURCE} src/RayTracer.cpp src/Scene.cpp src/Ray.cpp src/RayTracer.h src/Scene.h src/Ray.h) #The name of the cpp file and its path can vary
 
