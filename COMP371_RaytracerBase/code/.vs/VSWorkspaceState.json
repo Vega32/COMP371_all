@@ -6,8 +6,9 @@
     ]
   },
   "ExpandedNodes": [
-    ""
+    "",
+    "\\external"
   ],
-  "SelectedNode": "\\CMakeLists.txt",
+  "SelectedNode": "\\external\\test_json.cpp",
   "PreviewInSolutionExplorer": false
 }

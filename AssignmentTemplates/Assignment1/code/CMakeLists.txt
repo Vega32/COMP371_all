@@ -29,7 +29,7 @@ aux_source_directory(src SOURCE)
 
 
 
-add_executable(${PROJECT_NAME} main.cpp ${SOURCE} "src/A1solution.h" "src/A1solution.cpp") #The name of the cpp file and its path can vary
+add_executable(${PROJECT_NAME} main.cpp ${SOURCE} "src/A1solution.h" "src/A1solution.cpp" "src/Scene.h" "src/Scene.cpp") #The name of the cpp file and its path can vary
 
 target_link_libraries(${PROJECT_NAME} ${OPENGL_gl_LIBRARY} glew32s glfw3)
 
