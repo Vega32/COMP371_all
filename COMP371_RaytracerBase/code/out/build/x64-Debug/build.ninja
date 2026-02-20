@@ -12,7 +12,7 @@
 
 # =============================================================================
 # Project: raytracer
-# Configurations: Debug
+# Configurations: Release
 # =============================================================================
 
 #############################################
@@ -24,7 +24,7 @@ ninja_required_version = 1.5
 #############################################
 # Set configuration variable for custom commands.
 
-CONFIGURATION = Debug
+CONFIGURATION = Release
 # =============================================================================
 # Include auxiliary files.
 
@@ -49,72 +49,72 @@ cmake_ninja_workdir = C$:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\
 
 build cmake_object_order_depends_target_raytracer: phony || .
 
-build CMakeFiles\raytracer.dir\main.cpp.obj: CXX_COMPILER__raytracer_unscanned_Debug C$:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\main.cpp || cmake_object_order_depends_target_raytracer
-  CONFIG = Debug
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++14 -DSTUDENT_SOLUTION
+build CMakeFiles\raytracer.dir\main.cpp.obj: CXX_COMPILER__raytracer_unscanned_Release C$:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\main.cpp || cmake_object_order_depends_target_raytracer
+  CONFIG = Release
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++14 -DSTUDENT_SOLUTION
   INCLUDES = -IC:\vcpkg\packages\eigen3_x64-windows\include\eigen3 -IC:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\src -IC:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\external
   OBJECT_DIR = CMakeFiles\raytracer.dir
   OBJECT_FILE_DIR = CMakeFiles\raytracer.dir
   TARGET_COMPILE_PDB = CMakeFiles\raytracer.dir\
   TARGET_PDB = raytracer.pdb
 
-build CMakeFiles\raytracer.dir\external\simpleppm.cpp.obj: CXX_COMPILER__raytracer_unscanned_Debug C$:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\external\simpleppm.cpp || cmake_object_order_depends_target_raytracer
-  CONFIG = Debug
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++14 -DSTUDENT_SOLUTION
+build CMakeFiles\raytracer.dir\external\simpleppm.cpp.obj: CXX_COMPILER__raytracer_unscanned_Release C$:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\external\simpleppm.cpp || cmake_object_order_depends_target_raytracer
+  CONFIG = Release
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++14 -DSTUDENT_SOLUTION
   INCLUDES = -IC:\vcpkg\packages\eigen3_x64-windows\include\eigen3 -IC:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\src -IC:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\external
   OBJECT_DIR = CMakeFiles\raytracer.dir
   OBJECT_FILE_DIR = CMakeFiles\raytracer.dir\external
   TARGET_COMPILE_PDB = CMakeFiles\raytracer.dir\
   TARGET_PDB = raytracer.pdb
 
-build CMakeFiles\raytracer.dir\external\test_eigen.cpp.obj: CXX_COMPILER__raytracer_unscanned_Debug C$:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\external\test_eigen.cpp || cmake_object_order_depends_target_raytracer
-  CONFIG = Debug
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++14 -DSTUDENT_SOLUTION
+build CMakeFiles\raytracer.dir\external\test_eigen.cpp.obj: CXX_COMPILER__raytracer_unscanned_Release C$:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\external\test_eigen.cpp || cmake_object_order_depends_target_raytracer
+  CONFIG = Release
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++14 -DSTUDENT_SOLUTION
   INCLUDES = -IC:\vcpkg\packages\eigen3_x64-windows\include\eigen3 -IC:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\src -IC:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\external
   OBJECT_DIR = CMakeFiles\raytracer.dir
   OBJECT_FILE_DIR = CMakeFiles\raytracer.dir\external
   TARGET_COMPILE_PDB = CMakeFiles\raytracer.dir\
   TARGET_PDB = raytracer.pdb
 
-build CMakeFiles\raytracer.dir\external\test_json.cpp.obj: CXX_COMPILER__raytracer_unscanned_Debug C$:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\external\test_json.cpp || cmake_object_order_depends_target_raytracer
-  CONFIG = Debug
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++14 -DSTUDENT_SOLUTION
+build CMakeFiles\raytracer.dir\external\test_json.cpp.obj: CXX_COMPILER__raytracer_unscanned_Release C$:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\external\test_json.cpp || cmake_object_order_depends_target_raytracer
+  CONFIG = Release
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++14 -DSTUDENT_SOLUTION
   INCLUDES = -IC:\vcpkg\packages\eigen3_x64-windows\include\eigen3 -IC:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\src -IC:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\external
   OBJECT_DIR = CMakeFiles\raytracer.dir
   OBJECT_FILE_DIR = CMakeFiles\raytracer.dir\external
   TARGET_COMPILE_PDB = CMakeFiles\raytracer.dir\
   TARGET_PDB = raytracer.pdb
 
-build CMakeFiles\raytracer.dir\external\test_ppm.cpp.obj: CXX_COMPILER__raytracer_unscanned_Debug C$:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\external\test_ppm.cpp || cmake_object_order_depends_target_raytracer
-  CONFIG = Debug
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++14 -DSTUDENT_SOLUTION
+build CMakeFiles\raytracer.dir\external\test_ppm.cpp.obj: CXX_COMPILER__raytracer_unscanned_Release C$:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\external\test_ppm.cpp || cmake_object_order_depends_target_raytracer
+  CONFIG = Release
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++14 -DSTUDENT_SOLUTION
   INCLUDES = -IC:\vcpkg\packages\eigen3_x64-windows\include\eigen3 -IC:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\src -IC:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\external
   OBJECT_DIR = CMakeFiles\raytracer.dir
   OBJECT_FILE_DIR = CMakeFiles\raytracer.dir\external
   TARGET_COMPILE_PDB = CMakeFiles\raytracer.dir\
   TARGET_PDB = raytracer.pdb
 
-build CMakeFiles\raytracer.dir\src\Ray.cpp.obj: CXX_COMPILER__raytracer_unscanned_Debug C$:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\src\Ray.cpp || cmake_object_order_depends_target_raytracer
-  CONFIG = Debug
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++14 -DSTUDENT_SOLUTION
+build CMakeFiles\raytracer.dir\src\Ray.cpp.obj: CXX_COMPILER__raytracer_unscanned_Release C$:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\src\Ray.cpp || cmake_object_order_depends_target_raytracer
+  CONFIG = Release
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++14 -DSTUDENT_SOLUTION
   INCLUDES = -IC:\vcpkg\packages\eigen3_x64-windows\include\eigen3 -IC:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\src -IC:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\external
   OBJECT_DIR = CMakeFiles\raytracer.dir
   OBJECT_FILE_DIR = CMakeFiles\raytracer.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\raytracer.dir\
   TARGET_PDB = raytracer.pdb
 
-build CMakeFiles\raytracer.dir\src\RayTracer.cpp.obj: CXX_COMPILER__raytracer_unscanned_Debug C$:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\src\RayTracer.cpp || cmake_object_order_depends_target_raytracer
-  CONFIG = Debug
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++14 -DSTUDENT_SOLUTION
+build CMakeFiles\raytracer.dir\src\RayTracer.cpp.obj: CXX_COMPILER__raytracer_unscanned_Release C$:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\src\RayTracer.cpp || cmake_object_order_depends_target_raytracer
+  CONFIG = Release
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++14 -DSTUDENT_SOLUTION
   INCLUDES = -IC:\vcpkg\packages\eigen3_x64-windows\include\eigen3 -IC:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\src -IC:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\external
   OBJECT_DIR = CMakeFiles\raytracer.dir
   OBJECT_FILE_DIR = CMakeFiles\raytracer.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\raytracer.dir\
   TARGET_PDB = raytracer.pdb
 
-build CMakeFiles\raytracer.dir\src\Scene.cpp.obj: CXX_COMPILER__raytracer_unscanned_Debug C$:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\src\Scene.cpp || cmake_object_order_depends_target_raytracer
-  CONFIG = Debug
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++14 -DSTUDENT_SOLUTION
+build CMakeFiles\raytracer.dir\src\Scene.cpp.obj: CXX_COMPILER__raytracer_unscanned_Release C$:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\src\Scene.cpp || cmake_object_order_depends_target_raytracer
+  CONFIG = Release
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++14 -DSTUDENT_SOLUTION
   INCLUDES = -IC:\vcpkg\packages\eigen3_x64-windows\include\eigen3 -IC:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\src -IC:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\external
   OBJECT_DIR = CMakeFiles\raytracer.dir
   OBJECT_FILE_DIR = CMakeFiles\raytracer.dir\src
@@ -129,13 +129,13 @@ build CMakeFiles\raytracer.dir\src\Scene.cpp.obj: CXX_COMPILER__raytracer_unscan
 #############################################
 # Link the executable raytracer.exe
 
-build raytracer.exe: CXX_EXECUTABLE_LINKER__raytracer_Debug CMakeFiles\raytracer.dir\main.cpp.obj CMakeFiles\raytracer.dir\external\simpleppm.cpp.obj CMakeFiles\raytracer.dir\external\test_eigen.cpp.obj CMakeFiles\raytracer.dir\external\test_json.cpp.obj CMakeFiles\raytracer.dir\external\test_ppm.cpp.obj CMakeFiles\raytracer.dir\src\Ray.cpp.obj CMakeFiles\raytracer.dir\src\RayTracer.cpp.obj CMakeFiles\raytracer.dir\src\Scene.cpp.obj
-  CONFIG = Debug
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+build raytracer.exe: CXX_EXECUTABLE_LINKER__raytracer_Release CMakeFiles\raytracer.dir\main.cpp.obj CMakeFiles\raytracer.dir\external\simpleppm.cpp.obj CMakeFiles\raytracer.dir\external\test_eigen.cpp.obj CMakeFiles\raytracer.dir\external\test_json.cpp.obj CMakeFiles\raytracer.dir\external\test_ppm.cpp.obj CMakeFiles\raytracer.dir\src\Ray.cpp.obj CMakeFiles\raytracer.dir\src\RayTracer.cpp.obj CMakeFiles\raytracer.dir\src\Scene.cpp.obj
+  CONFIG = Release
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG
+  LINK_FLAGS = /machine:x64 /INCREMENTAL:NO /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = CMakeFiles\raytracer.dir
-  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\out\build\x64-Debug && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/Vega/Files/School/COMP371/COMP371_RaytracerBase/code/out/build/x64-Debug/raytracer.exe -installedDir C:/vcpkg/installed/x64-windows/debug/bin -OutVariable out"
+  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Vega\Files\School\COMP371\COMP371_RaytracerBase\code\out\build\x64-Debug && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/Vega/Files/School/COMP371/COMP371_RaytracerBase/code/out/build/x64-Debug/raytracer.exe -installedDir C:/vcpkg/installed/x64-windows/bin -OutVariable out"
   PRE_LINK = cd .
   TARGET_COMPILE_PDB = CMakeFiles\raytracer.dir\
   TARGET_FILE = raytracer.exe

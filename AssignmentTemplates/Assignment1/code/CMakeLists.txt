@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.8)
 project(Assignment1) # The name of your choice for the project comes here
 
-#add_compile_options(-DSTUDENT_SOLUTION)
+add_compile_options(-DSTUDENT_SOLUTION)
 
 
 IF(WIN32)
@@ -29,7 +29,7 @@ aux_source_directory(src SOURCE)
 
 
 
-add_executable(${PROJECT_NAME} main.cpp ${SOURCE}) #The name of the cpp file and its path can vary
+add_executable(${PROJECT_NAME} main.cpp ${SOURCE} "src/A1solution.h" "src/A1solution.cpp") #The name of the cpp file and its path can vary
 
 target_link_libraries(${PROJECT_NAME} ${OPENGL_gl_LIBRARY} glew32s glfw3)
 

@@ -11,16 +11,16 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Vega\\Files\\School\\COMP371\\COMP371_RaytracerBase\\code\\src\\Ray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Ray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Vega\\Files\\School\\COMP371\\COMP371_RaytracerBase\\code\\src\\RayTracer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\RayTracer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Vega\\Files\\School\\COMP371\\COMP371_RaytracerBase\\code\\src\\Ray.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Ray.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Vega\\Files\\School\\COMP371\\COMP371_RaytracerBase\\code\\src\\Ray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Ray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Vega\\Files\\School\\COMP371\\COMP371_RaytracerBase\\code\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "src\\Scene.cpp",
               "ToolTip": "C:\\Users\\Vega\\Files\\School\\COMP371\\COMP371_RaytracerBase\\code\\src\\Scene.cpp",
               "RelativeToolTip": "src\\Scene.cpp",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAAAJgAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-02-16T05:00:37.352Z",
               "EditorCaption": ""
@@ -65,20 +65,20 @@
               "RelativeDocumentMoniker": "src\\Scene.h",
               "ToolTip": "C:\\Users\\Vega\\Files\\School\\COMP371\\COMP371_RaytracerBase\\code\\src\\Scene.h",
               "RelativeToolTip": "src\\Scene.h",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADoAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-02-15T21:29:39.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Ray.cpp",
               "DocumentMoniker": "C:\\Users\\Vega\\Files\\School\\COMP371\\COMP371_RaytracerBase\\code\\src\\Ray.cpp",
               "RelativeDocumentMoniker": "src\\Ray.cpp",
               "ToolTip": "C:\\Users\\Vega\\Files\\School\\COMP371\\COMP371_RaytracerBase\\code\\src\\Ray.cpp",
               "RelativeToolTip": "src\\Ray.cpp",
-              "ViewState": "AgIAADUAAAAAAAAAAAAAAGIAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-02-15T19:57:44.013Z",
               "EditorCaption": ""
@@ -93,18 +93,17 @@
               "RelativeToolTip": "external\\simpleppm.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-15T20:22:13.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-15T20:22:13.733Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "RayTracer.cpp",
               "DocumentMoniker": "C:\\Users\\Vega\\Files\\School\\COMP371\\COMP371_RaytracerBase\\code\\src\\RayTracer.cpp",
               "RelativeDocumentMoniker": "src\\RayTracer.cpp",
               "ToolTip": "C:\\Users\\Vega\\Files\\School\\COMP371\\COMP371_RaytracerBase\\code\\src\\RayTracer.cpp",
               "RelativeToolTip": "src\\RayTracer.cpp",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAADwAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-02-15T20:00:29.135Z",
               "EditorCaption": ""
@@ -119,21 +118,19 @@
               "RelativeToolTip": "external\\test_ppm.cpp",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-15T21:48:44.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-15T21:48:44.663Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Ray.h",
               "DocumentMoniker": "C:\\Users\\Vega\\Files\\School\\COMP371\\COMP371_RaytracerBase\\code\\src\\Ray.h",
               "RelativeDocumentMoniker": "src\\Ray.h",
               "ToolTip": "C:\\Users\\Vega\\Files\\School\\COMP371\\COMP371_RaytracerBase\\code\\src\\Ray.h",
               "RelativeToolTip": "src\\Ray.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-02-15T19:03:55.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-15T19:03:55.143Z"
             },
             {
               "$type": "Document",
@@ -145,8 +142,7 @@
               "RelativeToolTip": "main.cpp",
               "ViewState": "AgIAADAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-15T19:01:50.796Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-15T19:01:50.796Z"
             }
           ]
         }
