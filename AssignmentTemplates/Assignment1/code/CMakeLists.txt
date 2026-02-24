@@ -10,13 +10,13 @@ find_package(OpenGL REQUIRED)
 
 
 # for windows
-include_directories(C:/glfw-3.3.9.bin.WIN64/include/)
-include_directories(C:/glew-2.1.0/include/)
-include_directories(C:/glew-2.1.0/include/GL/)
-include_directories(C:/GLM_0.9.9.8/g-truc-glm-bf71a83/)
+include_directories(C:/vcpkg/packages/glfw3_x64-windows/include/)
+include_directories(C:/vcpkg/packages/glew_x64-windows/include/)
+include_directories(C:/vcpkg/packages/glew_x64-windows/include/GL/)
+include_directories(C:/vcpkg/packages/glm_x64-windows/include/)
 
-link_directories(C:/glew-2.1.0/lib/Release/x64/)
-link_directories(C:/glfw-3.3.9.bin.WIN64/lib-vc2019/)
+link_directories(C:/vcpkg/packages/glew_x64-windows/lib)
+link_directories(C:/vcpkg/packages/glfw3_x64-windows/lib)
 
 
 
@@ -29,9 +29,9 @@ aux_source_directory(src SOURCE)
 
 
 
-add_executable(${PROJECT_NAME} main.cpp ${SOURCE} "src/A1solution.h" "src/A1solution.cpp" "src/Scene.h" "src/Scene.cpp") #The name of the cpp file and its path can vary
+add_executable(${PROJECT_NAME} main.cpp ${SOURCE} "src/A1solution.h" "src/A1solution.cpp" "src/Scene.h" "src/Scene.cpp"  "src/Shaders.cpp" "src/Shaders.h") #The name of the cpp file and its path can vary
 
-target_link_libraries(${PROJECT_NAME} ${OPENGL_gl_LIBRARY} glew32s glfw3)
+target_link_libraries(${PROJECT_NAME} ${OPENGL_gl_LIBRARY} glew32 glfw3dll)
 
 ELSE()
 
