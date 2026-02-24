@@ -63,17 +63,15 @@ void A1solution::run(std::string s){
     int programID[] = { 
         scene.compileAndLinkShaders(getFlatPhongVertexShader(), getFlatPhongFragmentShader()),
         scene.compileAndLinkShaders(getFlatPhongVertexShader(), getFlatPhongFragmentShader()),
-        scene.compileAndLinkShaders(getBeryVertexShader(), getVoronoiFragmentShader())
+        scene.compileAndLinkShaders(getBeryVertexShader(), getVoronoiFragmentShader()),
+        scene.compileAndLinkShaders(getBeryVertexShader(), getCircleFragmentShader()),
+
     };
 
-    int shaderIndex = 2;
+    int shaderIndex = 0;
     bool isWireframe = false;
-
-    cerr << "numVertices: " << scene.numVertiecies << endl;
-    cerr << "numTriangles: " << scene.numTriangles << endl;
-    cerr << "beryData size: " << scene.beryData.size() << endl;
-    cerr << "beryIndices size: " << scene.beryIndices.size() << endl;
-    cerr << "VAOb: " << scene.VAOb << endl;
+    bool w_pressed = false;
+    bool s_pressed = false;
 
 
     while (!glfwWindowShouldClose(window))
@@ -101,6 +99,10 @@ void A1solution::run(std::string s){
             glBindVertexArray(scene.VAOb);
             glDrawElements(GL_TRIANGLES, scene.beryIndices.size(), GL_UNSIGNED_INT, 0);
             break;
+        case 3:
+            glBindVertexArray(scene.VAOb);
+            glDrawElements(GL_TRIANGLES, scene.beryIndices.size(), GL_UNSIGNED_INT, 0);
+            break;
         }
         
         if (isWireframe) {
@@ -117,10 +119,17 @@ void A1solution::run(std::string s){
 
         if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
             glfwSetWindowShouldClose(window, true);
-        if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
-            shaderIndex= (shaderIndex+1) % 3;
-        if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
-            isWireframe = !isWireframe;
+        if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS && !s_pressed)
+            shaderIndex = (shaderIndex + 1) % 4; s_pressed = true;
+        if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS && !w_pressed)
+            isWireframe = !isWireframe; w_pressed = true;
+    
+        if (glfwGetKey(window, GLFW_KEY_S) == GLFW_RELEASE && s_pressed)
+            s_pressed = false;
+        if (glfwGetKey(window, GLFW_KEY_W) == GLFW_RELEASE && w_pressed)
+            w_pressed = false;
+    
+    
     }
 
     glfwTerminate();
