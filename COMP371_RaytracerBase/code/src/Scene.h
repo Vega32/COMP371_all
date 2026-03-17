@@ -31,6 +31,10 @@ public:
 	float ks;
 
 	float pc;
+
+	Eigen::Matrix4f transform{};
+
+	bool operator==(Geometry g);
 };
 
 class Light {
@@ -48,6 +52,11 @@ public:
 
 	Eigen::Vector3f id{0, 0, 0};
 	Eigen::Vector3f is{0, 0, 0};
+
+	Eigen::Matrix4f transform{};
+	int n = 1;
+	bool usecenter = false;
+	bool use = true;
 };
 
 class Output {
@@ -60,6 +69,11 @@ public:
 	Eigen::Vector3f center{0, 0, 0};
 	Eigen::Vector3f ai{0, 0, 0};
 	Eigen::Vector3f bkc{0, 0, 0};
+
+	std::vector<int> raysperpixel;
+	bool antialiasing = false;
+	bool twosiderendereing = true;
+	bool globalillum = false;
 
 };
 

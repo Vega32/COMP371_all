@@ -123,6 +123,8 @@ Scene::Scene(json j)
             light->is[i++] = (*itr2).get<float>();
         }
 
+        if ((*itr).contains("use") && (*itr)["use"] == false) light->use = false;
+
         vLight.push_back(*light);
     }
 
@@ -164,5 +166,17 @@ Scene::Scene(json j)
         }
 
         vOutput.push_back(*output);
+    }
+}
+
+bool Geometry::operator==(Geometry g)
+{
+    if (g.type != this->type) return false;
+
+    if (g.type == "sphere") {
+        return g.center == this->center && g.radius == this->radius;
+    }
+    else {
+        return g.p1 == this->p1 && g.p2 == this->p2 && g.p3 == this->p3 && g.p4 == this->p4;
     }
 }

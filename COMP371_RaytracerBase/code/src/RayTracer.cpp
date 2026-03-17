@@ -3,6 +3,7 @@
 #include "Ray.h"
 #include "../external/simpleppm.h"
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
@@ -32,18 +33,19 @@ void RayTracer::run()
 		for (int j = 0; j < height; j++) {
 			for (int i = 0; i < width; i++) {
 				Eigen::Vector3f pixelCenter = C + (i * delta + delta / 2) * r - (j * delta + delta / 2) * output->up;
-				Ray ray (output->center, pixelCenter);
-				vector<Eigen::Vector3f> intersections;
+				Eigen::Vector3f rayDirection = (pixelCenter - output->center).normalized();
+				Ray ray (output->center, rayDirection);
+				vector<RayResult> intersections;
 				vector<Geometry> intersectionsShapes;
 				int minIndex = 0;
 
 				for (auto shape = scene->vGeometry.begin(); shape != scene->vGeometry.end(); shape++) {
 					
-					Eigen::Vector3f point = ray.intersect(*shape);
+					RayResult result = ray.intersect(*shape);
 
-					if (!std::isnan(point[0])) {
+					if (result.hit) {
 
-						intersections.push_back(point);
+						intersections.push_back(result);
 						intersectionsShapes.push_back(*shape);
 						
 					}
@@ -59,15 +61,88 @@ void RayTracer::run()
 
 
 					for (int si = 0; si < intersections.size(); si++) {
-						double currentMin = (output->center - intersections.at(minIndex)).norm();
-						double newMin = (output->center - intersections.at(si)).norm();
+						double currentMin = (output->center - intersections.at(minIndex).point).norm();
+						double newMin = (output->center - intersections.at(si).point).norm();
 						if (newMin < currentMin) {
 							minIndex = si;
 						}
 					}
-					buffer[3 * j * width + 3 * i + 0] = (intersectionsShapes.at(minIndex).ac[0]);
-					buffer[3 * j * width + 3 * i + 1] = (intersectionsShapes.at(minIndex).ac[1]);
-					buffer[3 * j * width + 3 * i + 2] = (intersectionsShapes.at(minIndex).ac[2]);
+					// Color calculation
+					Eigen::Vector3f color;
+					vector<Eigen::Vector3f> lightDirections;
+					vector<Light> visibleLightSource;
+					bool lightBlocked = false;
+					const double NEAR_ZERO = 0.0000001;
+
+					//Ambiant Light
+					color = output->ai.cwiseProduct(intersectionsShapes.at(minIndex).ac) * intersectionsShapes.at(minIndex).ka;
+
+					// Iterate over each light source
+					for (auto light = scene->vLight.begin(); light != scene->vLight.end(); light++) {
+						if (!light->use) continue;
+						lightBlocked = false;
+						Eigen::Vector3f tempLightDirection;
+						float tempLightDistance;
+						if (light->type == "area") {
+							tempLightDirection = (((light->p1 + light->p2 + light->p3 + light->p4) / 4) - intersections.at(minIndex).point);
+						}
+						else {
+							tempLightDirection = (light->center - intersections.at(minIndex).point);
+						}
+
+						tempLightDistance = tempLightDirection.norm();
+						tempLightDirection = tempLightDirection.normalized();
+
+						//Check if light is blocked
+						for (auto shape = scene->vGeometry.begin(); shape != scene->vGeometry.end(); shape++) {
+
+							Ray shadowRay(intersections.at(minIndex).point + intersections.at(minIndex).normal*NEAR_ZERO, tempLightDirection);
+							RayResult result = shadowRay.intersect(*shape);
+
+							if (result.hit && !(*shape == intersectionsShapes.at(minIndex)) && (result.point-intersections.at(minIndex).point).norm()<tempLightDistance) {
+
+								lightBlocked = true;
+								break;
+
+							}
+
+						}
+						if (!lightBlocked) { 
+							lightDirections.push_back(tempLightDirection);
+							visibleLightSource.push_back(*light);
+						}
+
+					}
+					if (lightDirections.size() > 0) {
+
+						for (int li = 0; li < lightDirections.size(); li++) {
+							Eigen::Vector3f normal = intersections.at(minIndex).normal;
+							//Two side rendering
+							Eigen::Vector3f L = lightDirections.at(li);
+							if (normal.dot(L)<0) {
+								normal = -intersections.at(minIndex).normal;
+							}
+							
+							//Diffuse Reflection
+							color += visibleLightSource.at(li).id.cwiseProduct(intersectionsShapes.at(minIndex).dc) * intersectionsShapes.at(minIndex).kd * max((normal.dot(L)), 0.0f);
+
+							//Specular Reflection
+							
+							Eigen::Vector3f R = (2.0f * normal * (normal.dot(L)) - L).normalized();
+							Eigen::Vector3f V = -rayDirection;
+							Eigen::Vector3f H = (L + V).normalized();
+
+							color += visibleLightSource.at(li).is.cwiseProduct(intersectionsShapes.at(minIndex).sc) * intersectionsShapes.at(minIndex).ks * pow(max((normal.dot(H)), 0.0f), intersectionsShapes.at(minIndex).pc);
+						}
+					}
+					
+
+
+
+					color = color.cwiseMax(0.0f).cwiseMin(1.0f);
+					buffer[3 * j * width + 3 * i + 0] = (color[0]);
+					buffer[3 * j * width + 3 * i + 1] = (color[1]);
+					buffer[3 * j * width + 3 * i + 2] = (color[2]);
 				}
 				
 			}
