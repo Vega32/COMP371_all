@@ -112,6 +112,8 @@ Scene::Scene(json j)
             for (auto itr2 = (*itr)["p4"].begin(); itr2 != (*itr)["p4"].end(); itr2++) {
                 light->p4[i++] = (*itr2).get<float>();
             }
+            if ((*itr).contains("n")) light->n = (*itr)["n"].get<float>();
+            if ((*itr).contains("usecenter") && (*itr)["usecenter"] == true) light->usecenter = true;
         }
         //id, is
         int i = 0;
@@ -164,6 +166,14 @@ Scene::Scene(json j)
         for (auto itr2 = (*itr)["bkc"].begin(); itr2 != (*itr)["bkc"].end(); itr2++) {
             output->bkc[i++] = (*itr2).get<float>();
         }
+
+        if ((*itr).contains("raysperpixel")) {
+            for (auto itr2 = (*itr)["raysperpixel"].begin(); itr2 != (*itr)["raysperpixel"].end(); itr2++) {
+                output->raysperpixel.push_back(*itr2);
+            }
+        }
+
+        if ((*itr).contains("antialiasing") && (*itr)["antialiasing"] == true && this->isAreaLight == false) output->antialiasing = true;
 
         vOutput.push_back(*output);
     }
