@@ -95,6 +95,7 @@ Scene::Scene(json j)
             }
         }
         else if(light->type == "area") {
+            this->isAreaLight = true;
             int i = 0;
             //Points 1->4
             for (auto itr2 = (*itr)["p1"].begin(); itr2 != (*itr)["p1"].end(); itr2++) {
